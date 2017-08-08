@@ -31,6 +31,7 @@
             method_exchangeImplementations(originalMethod, swizzledMethod);
         }
     });
+    
 }
 
 - (void)sd_fadeSetImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder {
